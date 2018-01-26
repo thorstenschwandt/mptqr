@@ -1,0 +1,17 @@
+
+html, body {
+    background-color: #ffffff;margin: 5px;
+	font-family: sans-serif;font-size: 9pt;
+}
+.mfbc {
+	background-color: #ffffff;
+	padding: 15px; width: 200px;height: 200px;
+}
+
+.mfbctext {
+	display: block;font-size: 12pt; color: #000000;
+}
+
+body {margin: 1cm;}  @page {size: A4 landscape;}
+button { display:none; }
+

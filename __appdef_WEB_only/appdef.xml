@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<application type="client-application" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.m-files.com/schemas/appdef-client-v3.xsd">
+  <guid>ae7af66c-a09d-4f32-b15a-fb36da1b232a</guid>
+  <name>M-Power TOOLS QR-Mobile Linkage</name>
+  <description>Web Client Extension App</description>
+  <version>1.1</version>
+  <publisher>Electric Paper Informationssysteme GmbH</publisher>
+  <copyright>(c) Electric Paper Informationssysteme GmbH 2018</copyright>
+  <required-mfiles-version>12.0.6400.37</required-mfiles-version>
+  <platforms>
+     <platform>Web</platform>
+  </platforms>
+  <modules>
+    <module environment="shellui">      
+	  <file>QR_config.js</file>
+      <file>QR_shellui.js</file>
+	  <file>QR_mpf.js</file>
+    </module>
+  </modules>
+  <dashboards>
+    <dashboard id="QR_en">
+	 <content>QR_dashboard_en.html</content>
+	 </dashboard>
+	 <dashboard id="QR_de">
+	 <content>QR_dashboard_de.html</content>
+	 </dashboard>
+   </dashboards>
+</application>
