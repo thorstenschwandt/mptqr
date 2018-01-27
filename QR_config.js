@@ -2,10 +2,7 @@
 // M-Power TOOLS QR-Code Linkage Configuration
 
 // show context menu function to add vaults connection to mobile
-var bAddVaultConCmd=false;
-
-// base URL info of M-Files Web. Needed to add vault connections
-var sBaseUrl="http://kivik";
+var bAddVaultConCmd=true;
 
 // show button to print QR code on paper, set to false to hide
 var bShowPrintButton=true; 

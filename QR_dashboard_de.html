@@ -9,6 +9,7 @@
         <link href="css/jquery.page.css" rel="stylesheet" type="text/css"/>		
         <script src="js/jquery.page.min.js" type="text/javascript"></script>
 		<script type='text/javascript' src='js/jquery.qrcode.min.js'></script>
+		<script type='text/javascript' src='js/jspdf.min.js'></script>
 		<script type='text/javascript' src='QR_config.js'></script>
 		<script type='text/javascript' src='QR_mpf.js'></script>
         <link href="css/app.css" rel="stylesheet" media="screen" type="text/css"/>
@@ -46,7 +47,7 @@
 						Die Standard Kamera App unter iOS besitzt mittlerweile sogar einen integrierten QR-Interpreter. Falls Sie es vorziehen, einen Ausdruck des M-Files Links wiederverwendbar in Reichweite zu haben, können Sie den am Bildschirm angezeigten QR-Code auch über die entsprechende Schaltfläche direkt ausdrucken. 
 						
 						<h3>Wie lässt sich die App konfigurieren?</h3>
-						Im Prinzip gibt es nicht viel zu konfigurieren, denn die App funktioniert sofort nach der Installation auf dem Client.<br/>Falls Sie jedoch die Zusatzfunktion "QR-Mobile Vaultverbindung hinzufügen..." freischalten möchten (Todo: Geben Sie die vollständige Http-URL Ihrer M-Files Web Seite an) oder bestimmte Elemente der App ausblenden möchten (wie z.B. die Hilfe- oder "Info über" Seite), müssen Sie die App aus der M-Files Management Konsole zur Bearbeitung exportieren, entpacken (unzip) und die darin enthaltene "QS_config.js" Datei bearbeiten. Die Einstellmöglichkeiten der Konfigurationsdatei sind selbsterklärend. Beachten Sie die darin enthaltenen Hinweise um diese einfach entsprechend Ihrer Vorstellungen zu konfigurieren. Speichern Sie Ihre Änderungen und packen Sie das App-Paket erneut, um es dann als Update in der M-Files Management Konsole zu importieren. Nach einer Logoff-/Logon-Sequenz, ist die neue App-Konfiguration nun auf dem Client aktiv!<br/> 
+						Im Prinzip gibt es nicht viel zu konfigurieren, denn die App funktioniert sofort nach der Installation auf dem Client.<br/>Falls Sie jedoch  bestimmte Elemente oder Funktionen der App ausblenden möchten (wie z.B. die Hilfe- oder "Info über" Seite), müssen Sie die App aus der M-Files Management Konsole zur Bearbeitung exportieren, entpacken (unzip) und die darin enthaltene "QS_config.js" Datei bearbeiten. Die Einstellmöglichkeiten der Konfigurationsdatei sind selbsterklärend. Beachten Sie die darin enthaltenen Hinweise um diese einfach entsprechend Ihrer Vorstellungen zu konfigurieren. Speichern Sie Ihre Änderungen und packen Sie das App-Paket erneut, um es dann als Update in der M-Files Management Konsole zu importieren. Nach einer Logoff-/Logon-Sequenz, ist die neue App-Konfiguration nun auf dem Client aktiv!<br/> 
 												
 						<h3>Das Projekt auf GitHub</h3>
 						Die jeweils neueste Fassung der App können Sie aus der GitHub Projektseite beziehen. <br/>
@@ -110,7 +111,7 @@
 						THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 						</p>
 						<p class='lictxt'>						
-						Components from the following third-party libraries are distributed with and used by this client extension under the MIT License: jQuery.qrcode copyright by Lars Jung, jQuery Page by Ralf S. Engelschall, jQuery and jQueryUI copyright by the JS Foundation and other contributors.
+						Components from the following third-party libraries are distributed with and used by this client extension under the MIT License: jQuery.qrcode copyright by Lars Jung, jQuery Page copyright by Ralf S. Engelschall, jsPDF copyright by James Hall, jQuery and jQueryUI copyright by the JS Foundation and other contributors.
 						</p>
 										
 					</div>

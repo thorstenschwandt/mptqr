@@ -6,7 +6,6 @@ function OnNewShellUI( shellUI ) {
 			customData = shellFrame; customData.bShowPrintButton=bShowPrintButton;customData.bShowAboutButton=bShowAboutButton;customData.bShowHelpButton=bShowHelpButton;customData.AddCon=bAddVaultConCmd;
 			// custom action 
 			function showEFS(bAddConCmd) {										
-				customData.baseURL=sBaseUrl;
 				if (bAddConCmd) customData.AddCon=true; else customData.AddCon=false;
 				try {
 					if (shellFrame.ActiveListing.CurrentSelection.GetObjectVersionsCount()>0||shellFrame.ActiveListing.CurrentSelection.Folders.Count>=0) {
