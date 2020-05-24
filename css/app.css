@@ -38,7 +38,10 @@ html, body {
 
 .mfbtn {
 	display: none;
-	
+}
+
+.mfbtn2 {
+	display: none;
 }
 
 .mfabout {
@@ -62,7 +65,7 @@ position:fixed;
 }
 
 .covimg {
-position: fixed; /* or absolute */
+position: fixed; 
   top: 50%;
   left: 50%;
 }
@@ -98,7 +101,6 @@ button:hover {-webkit-box-shadow: 0 1px 4px rgba(200,200,200,0.2), 0 0 40px rgba
 }
 
 
-/* Effect 21: borders slight translate */
 .cl-effect-21 a {
 	padding: 10px;
 	color: #237546;
