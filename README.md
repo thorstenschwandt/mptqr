@@ -16,6 +16,12 @@ This app generates quick response (QR) codes from selected M-Files objects and v
 <h3>Now how do i use it?</h3>
 Just select the desired object in M-Files Desktop or Web Client, right click it and choose the "Get QR-Mobilelink..." function from the context menu. That will automatically generate the QR-Code to bring that content onto your mobile device, whether it is a tablet or a smartphone. Of course M-Files mobile app needs to be installed beforehand, but it is not necessary to have it open while scanning the code - any capable QR-Code reading app will do. It is especially easy with iOS, which standard camera app now has an integrated QR-interpreter. Please note that the QR-Code is printable, if you prefer to have a physical copy of the M-Files object somewhere in reach, reusable at your fingertips.
 
+<h3>Install the app</h3>
+M-Files administrator rights are required to install the app. Use M-Files Management Console to install one of the "Mobile_Connect_App_for_MF" app variants. To do this, first navigate to the desired vault that is to receive the function and select the "Applications" command from the context menu (right-click). The overview of the apps that have already been installed appears on the screen. Click on "Install..." and select the desired mfappx file for installation. The M-Files Client extension will become active for the respective user after the next login and logout procedure. 
+
+<h3>App updates</h3>
+There is no separate update routine. Simply proceed as described in the section "Installing the App". It is not necessary to uninstall the app first.
+						
 <h3>How can we configure it?</h3>
 Well there is not much to configure, since the app will do its job straightaway.<br/>But if you'd like to hide some of the elements and functions of the app (like this help- or the about page), you'll need to export the app from M-Files management console, unzip it and edit the "QS_config.js" file that is part of this client extension package. The config file itself is pretty self-explaining and if you read the remarks you can easily configure it to suit your needs. Now save it and zip it again to reimport it into M-Files management console. Once M-Files clients do a logoff-logon, they'll experience the new configuration!<br/> 
 
