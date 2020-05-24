@@ -1,7 +1,7 @@
-# mptqr
+# mptqr version 1.2
 <h3>Client Extension App for M-Files 2015.3, 2018 and 20.x.</h3>
 
-QR-Mobilelink for M-Files, Version 1.2
+QR-Mobilelink for M-Files
 
 <h3>What does it do?</h3>
 This app generates quick response (QR) codes from selected M-Files objects and views, to swiftly access the same items inside M-Files mobile app. That's almost all. Small, neat and practically!<br/>
