@@ -24,11 +24,12 @@
                 <div>
                     <div class="page pblue" data-jquery-page-name="start">
 						<div id='title' class="title"></div>
-						<div id="mfpage" class="mfpage"><div class="row"><div class="flex-item"><div id="mfbcpage" class="mfbcpage"><div id="mfbc" class="mfbc" title="QR-Code mit der Mobile Cam einlesen"></div><div id="mfbctext" class="mfbctext"></div></div></div></div></div>
+						<div id="mfpage" class="mfpage"><div class="row"><div class="flex-item"><div id="mfbcpage" class="mfbcpage"><div id="mfbc" class="mfbc" title="QR-Code mit der Mobile Cam scannen oder per Drag+Drop oder dem Kopier-Button in andere Anwendungen übernehmen."></div><div id="mfbctext" class="mfbctext"></div></div></div></div></div>
 						
 						<!-- bottom menu -->
 						<p></p><p></p><div>
 						<button class="mfbtn" id="mfbtn" onclick='EFS_PrintQR();' title='hier klicken um den QR-Code zu drucken'><img src="images/print.png"></img></button>
+						<button class="mfbtn2" id="mfbtn2" onclick="EFS_CopyQR('mfbc','de');" title='QR-Code in Zwischenablage kopieren'><img src="images/copy.png"></img></button>
 						<button class="navigate mfhelp" id="mfhelp" data-page-name="help" data-page-trans="slide-in-from-right" title='Hilfeseite aufrufen'><img class="navigate" data-page-name="help" data-page-trans="slide-in-from-right" src="images/help.png"></img></button>
 						<button class="navigate mfabout" id="mfabout" data-page-name="about" data-page-trans="slide-in-from-right" title='Infos über diese Anwendung abfrufen'><img class="navigate" data-page-name="about" data-page-trans="slide-in-from-right" src="images/about.png"></img></button>			
 						</div>
@@ -81,7 +82,11 @@
 							</table>
 							<section class="color-1">
 								<nav class="cl-effect-1" id="cl-effect-1">
-									<p><a href='https://www.linkedin.com/in/thorstenschwandt770426' title="besuchen Sie mich auf LinkedIn" target='_new1'>Besuchen Sie mich auf LinkedIn</a><a href='https://www.yammer.com/m-filespartnernetwork/#/users/1581860798' title='Yammer User können mir hier folgen' target='_new2'>Folgen Sie mir auf dem M-Files Yammer Kanal</a></p>
+									<p>
+									<a href='https://www.linkedin.com/in/thorstenschwandt770426' title='besuchen Sie mich auf LinkedIn' target='_new1'>Besuchen Sie mich auf LinkedIn</a>
+									<a href='https://www.xing.com/profile/Thorsten_Schwandt2' title='besuchen Sie mich auf Xing' target='_new1'>Besuchen Sie mich auf Xing</a>
+									<a href='https://www.yammer.com/m-filespartnernetwork/#/users/1581860798' title='Yammer User können mir hier folgen' target='_new2'>Folgen Sie mir auf dem M-Files Yammer Kanal</a>
+									</p>
 								</nav>
 							</section>
 				

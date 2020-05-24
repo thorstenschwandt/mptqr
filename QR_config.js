@@ -7,6 +7,9 @@ var bAddVaultConCmd=true;
 // show button to print QR code on paper, set to false to hide
 var bShowPrintButton=true; 
 
+// show button to copy QR code to clipboard, set to false to hide
+var bShowCopyButton=true; 
+
 // show about button, set to false to hide
 var bShowAboutButton=true;
 

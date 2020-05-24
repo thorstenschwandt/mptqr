@@ -88,14 +88,13 @@ function EFS_QRRendition(shellFrame,sBC,sTitle) {
 	$('#mfbctext').append("<p>" + sTitle + "<p>"); 
 	if (shellFrame.lang=="de") sTitle="QR-Code für " + sTitle; else sTitle="QR-Code for " + sTitle;
 	$('#title').html(sTitle);
-	if (shellFrame.bShowPrintButton) $('#mfbtn').show();if (shellFrame.bShowAboutButton) $('#mfabout').show();if (shellFrame.bShowHelpButton) $('#mfhelp').show();		
+	if (shellFrame.bShowPrintButton) $('#mfbtn').show();if (shellFrame.bShowAboutButton) $('#mfabout').show();if (shellFrame.bShowHelpButton) $('#mfhelp').show();if (shellFrame.bShowCopyButton) $('#mfbtn2').show();
 }
 
 function EFS_PrintQR() {
 		var doc = new jsPDF();doc.setFontSize(10);doc.text($('#title').text(), 12, 18);
 		var imgData = $('#mfbc > img').attr('src');doc.addImage(imgData, 'png', 12, 30 ); 	
 		doc.autoPrint(); var bShow=bWeb;
-		
 		// check if current browser is IE. IE should only download/print the PDF. 
 		if (bShow) {
 			var ua = window.navigator.userAgent;
@@ -104,17 +103,24 @@ function EFS_PrintQR() {
 				bShow=false; 
 			} 
 		}
-				
 		if (bShow) {
 			var spdfdoc = doc.output('datauristring');
 			var windowObject = window.open('', '_blank', 'width=600,height=600,top=50,left=50,toolbars=no,scrollbars=yes,status=no,resizable=yes,menubar=no,status=no,toolbar=no');
 			windowObject.document.open();
-			windowObject.document.writeln("<html><head><body>" );
-			windowObject.document.writeln("<object data='" + spdfdoc + "' type='application/pdf' width='600' height='600'><embed src='" + spdfdoc + "' type='application/pdf'></embed></object>" );
-			windowObject.document.writeln("</body></head></html>" );
+			windowObject.document.writeln("<html><head><body>" );windowObject.document.writeln("<object data='" + spdfdoc + "' type='application/pdf' width='600' height='600'><embed src='" + spdfdoc + "' type='application/pdf'></embed></object>" );windowObject.document.writeln("</body></head></html>" );
 			windowObject.document.close();
 		} else {
 			doc.save("printme.pdf");
 		}
+}
+
+function EFS_CopyQR(cid,sL) {
+	
+	try {
+		var range = document.createRange();range.selectNode(document.getElementById(cid));window.getSelection().removeAllRanges();window.getSelection().addRange(range); document.execCommand("copy");window.getSelection().removeAllRanges();
+		if (sL="de") alert("QR-Code wurde in die Zwischenablage kopiert. ");
+		else alert("QR-Code copied to clipboard. ");
+
+	} catch (e) {alert(e);}
 		
 }
