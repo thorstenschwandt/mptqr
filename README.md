@@ -4,7 +4,7 @@
 QR-Mobilelink Generator for M-Files
 
 <h3>What does it do?</h3>
-This app generates quick response (QR) codes from selected M-Files objects and views, to swiftly access the same items inside M-Files mobile app. That's almost all. Small, neat and practically!<br/>
+This app generates quick response (QR) codes from selected M-Files objects and views, to swiftly access the same items inside M-Files mobile app. That's just about all, small, neat and practically!<br/>
 <h3>What you might need this app to ...</h3>
 <ul>
   <li><b>Rapid step</b> to open your customer record from the mobile<br/><b>&#8680;</b> scan the QR and instantly call your contact from the smartphone!<br/><br/></li>
