@@ -22,6 +22,9 @@ M-Files administrator rights are required to install the app. Use M-Files Manage
 <h3>App updates</h3>
 There is no separate update routine. Simply proceed as described in the section "Installing the App". It is not necessary to uninstall the app first.
 						
+<h3>How to de-Install the app</h3>
+The un-installation is done from the same dialog (see above "Install the App"). The administrator may un-install the app at anytime from the vaults applications listing. The QR-Link-Feature will be gone the next time that the user logs off their M-Files Client.
+						
 <h3>How can we configure it?</h3>
 Well there is not much to configure, since the app will do its job straightaway.<br/>But if you'd like to hide some of the elements and functions of the app (like this help- or the about page), you'll need to export the app from M-Files management console, unzip it and edit the "QS_config.js" file that is part of this client extension package. The config file itself is pretty self-explaining and if you read the remarks you can easily configure it to suit your needs. Now save it and zip it again to reimport it into M-Files management console. Once M-Files clients do a logoff-logon, they'll experience the new configuration!<br/> 
 
