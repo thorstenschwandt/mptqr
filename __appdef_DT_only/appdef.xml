@@ -1,18 +1,17 @@
 <?xml version="1.0"?>
-<application type="client-application" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.m-files.com/schemas/appdef-client-v3.xsd">
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.m-files.com/schemas/appdef-client-v4.xsd">
   <guid>ae7af66c-a09d-4f32-b15a-fb36da1b232a</guid>
   <name>M-Power TOOLS QR-Mobile Linkage</name>
-  <description>Desktop Client Extension App</description>
-  <version>1.2</version>
+  <description>Desktop and Web Client Extension App</description>
+  <version>1.3</version>
   <publisher>Electric Paper Informationssysteme GmbH</publisher>
-  <copyright>(c) Electric Paper Informationssysteme GmbH 2020</copyright>
-  <required-mfiles-version>11.2.4320.49</required-mfiles-version>
+  <copyright>(c) Electric Paper Informationssysteme GmbH 2022</copyright>
+  <required-mfiles-version>20.12.0.0</required-mfiles-version>
   <platforms>
      <platform>Desktop</platform>
   </platforms>
   <modules>
-    <module environment="shellui">      
+    <module environment="shellui" fast-browsing-compatible="true">      
 	  <file>QR_config.js</file>
       <file>QR_shellui.js</file>
 	  <file>QR_mpf.js</file>
@@ -21,9 +20,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocat
   <dashboards>
     <dashboard id="QR_en">
 	 <content>QR_dashboard_en.html</content>
+	 <trusted-content>https:</trusted-content>
 	 </dashboard>
 	 <dashboard id="QR_de">
 	 <content>QR_dashboard_de.html</content>
+	 <trusted-content>https:</trusted-content>
 	 </dashboard>
    </dashboards>
 </application>
