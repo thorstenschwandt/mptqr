@@ -51,7 +51,6 @@ function OnNewShellUI( shellUI ) {
 						else if(command == EFSCmdQRfObj) showEFS(false);
 					});
 				},
-
 				OnNewShellListing: function ( shellListing ) {					
 					var isCommandInMenu = false;
 					// Called when a new shell listing is created.
@@ -65,14 +64,12 @@ function OnNewShellUI( shellUI ) {
 							if (shellFrame.CurrentPath!="") {
 								ShowEFSMenu(false,isCommandInMenu,shellFrame,EFSCmdQRfObj);
 							}
-						}
-								
+						}			
 					}
 				} // End ShellFrame Event Handlers			
 		}
 	} // End ShellUI Event Handlers
 }
-
 }
 
 function ShowEFSMenu(bHide, isCommandInMenu, shellFrame, EFSCmdQRfObj) {

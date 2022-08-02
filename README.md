@@ -1,5 +1,5 @@
-# mptqr 1.2
-<h3>Client Extension App for M-Files Desktop and M-Files Web Versions 2015.3, 2018 and 20.x.</h3>
+# mptqr 1.3
+<h3>Client Extension App for M-Files Desktop and M-Files Web Versions 20.12 - 22.x.</h3>
 
 QR-Mobilelink Generator for M-Files
 
