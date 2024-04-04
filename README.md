@@ -1,5 +1,5 @@
-# mptqr 1.3
-<h3>Client Extension App for M-Files Desktop and M-Files Web Versions 20.12 - 22.x.</h3>
+# mptqr 1.3.1
+<h3>Client Extension App for M-Files Desktop and M-Files Web Versions 20.12 - 24.x.</h3>
 
 QR-Mobilelink Generator for M-Files
 
@@ -27,6 +27,19 @@ The un-installation is done from the same dialog (see above "Install the App"). 
 						
 <h3>How can we configure it?</h3>
 Well there is not much to configure, since the app will do its job straightaway.<br/>But if you'd like to hide some of the elements and functions of the app (like this help- or the about page), you'll need to export the app from M-Files management console, unzip it and edit the "QS_config.js" file that is part of this client extension package. The config file itself is pretty self-explaining and if you read the remarks you can easily configure it to suit your needs. Now save it and zip it again to reimport it into M-Files management console. Once M-Files clients do a logoff-logon, they'll experience the new configuration!<br/> 
+
+
+<h3>What's new?</h3>
+
+<h4>Version 1.3.1</h4>
+<ul><li>removed unnecessary YT link. Now also works with M-Files 24.x.</li></ul>
+
+
+<h4>Version 1.3</h4>
+<ul><li>added M-Files fast-navigation support</li></ul>
+
+<h4>Version 1.2</h4>
+<ul><li>new action to copy the QR symbol into the clipboard (copy/paste into other Apps)</li></ul>
 
 <h3>MIT License</h3>
 <p>

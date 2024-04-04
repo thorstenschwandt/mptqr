@@ -3,9 +3,9 @@
   <guid>ae7af66c-a09d-4f32-b15a-fb36da1b232a</guid>
   <name>M-Power TOOLS QR-Mobile Linkage</name>
   <description>Desktop and Web Client Extension App</description>
-  <version>1.3</version>
+  <version>1.3.1</version>
   <publisher>Electric Paper Informationssysteme GmbH</publisher>
-  <copyright>(c) Electric Paper Informationssysteme GmbH 2022</copyright>
+  <copyright>(c) Electric Paper Informationssysteme GmbH 2024</copyright>
   <required-mfiles-version>20.12.0.0</required-mfiles-version>
   <platforms>
      <platform>Web</platform>
