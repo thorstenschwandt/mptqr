@@ -1,4 +1,3 @@
-
 // M-Power TOOLS QR-Code Linkage Configuration
 
 // show context menu function to add vaults connection to mobile

@@ -1,13 +1,11 @@
 
 var bWeb;
-
 window.newObject = function () {
 	return {};
 }
 
 function OnNewDashboard( dashboard ) {
-	var shellFrame = dashboard.CustomData; var sTitle="";	
-	
+	var shellFrame = dashboard.CustomData; var sTitle="";		
 	try {
 		bWeb=eval(shellFrame.ActiveListing.CurrentSelection.GetObjectVersionsAndPropertiesAsync);
 	}
@@ -114,8 +112,7 @@ function EFS_PrintQR() {
 		}
 }
 
-function EFS_CopyQR(cid,sL) {
-	
+function EFS_CopyQR(cid,sL) {	
 	try {
 		var range = document.createRange();range.selectNode(document.getElementById(cid));window.getSelection().removeAllRanges();window.getSelection().addRange(range); document.execCommand("copy");window.getSelection().removeAllRanges();
 		if (sL="de") alert("QR-Code wurde in die Zwischenablage kopiert. ");

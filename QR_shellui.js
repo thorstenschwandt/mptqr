@@ -4,6 +4,7 @@ function OnNewShellUI( shellUI ) {
 	return {
 		OnNewShellFrame: function ( shellFrame ) {
 			customData = shellFrame; customData.bShowPrintButton=bShowPrintButton;customData.bShowCopyButton=bShowCopyButton;customData.bShowAboutButton=bShowAboutButton;customData.bShowHelpButton=bShowHelpButton;customData.AddCon=bAddVaultConCmd;
+
 			// custom action 
 			function showEFS(bAddConCmd) {										
 				if (bAddConCmd) customData.AddCon=true; else customData.AddCon=false;
